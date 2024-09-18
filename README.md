@@ -1,4 +1,4 @@
-# Save as PDF Instructions
+# 😁 Save as PDF Instructions
 
 This document outlines the steps to save the current page as a PDF. Follow the instructions below for a seamless experience.
 
