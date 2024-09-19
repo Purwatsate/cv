@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aung Naing Tun - Profile</title>
     <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/card.css">
 </head>
 
 <body>
@@ -16,58 +17,67 @@
             <div class="myphoto">
                 <img src="assets/me.jpg" alt="myphoto">
                 <div class="contact pad-top-10 flex-colum-center">
-                    <p>CONTACT</p>
-                    <p><a href="mailto:antun.rak@gmail.com">antun.rak@gmail.com</a></p>
-                    <p>+9599963542097</p>
+                    <p style="font-weight: bold;">CONTACT</p>
+                    <p class="email"><a href="mailto:antun.rak@gmail.com">antun.rak@gmail.com</a></p>
+                    <p>+959456533842</p>
                 </div>
             </div>
 
-            <div class="education pad-top-10">
-                <h4>Education</h4>
-                <div class="normal-text">B.C.Sc (Computer Science)</div>
-                <div class="normal-text">Completed in 2020</div>
-            </div>
+            <div style="padding-left: 25px;">
+                <div class="education pad-top-10">
+                    <h4>EDUCATION</h4>
+                    <div class="normal-text">B.C.Sc (Computer Science)</div>
+                    <div class="normal-text">2015 - 2020</div>
+                </div>
 
-            <div>
-                <div class="skills pad-top-10">
-                    <h4>Skills</h4>
+                <div class="pad-top-10">
+                    <div class="skills">
+                        <h4>SKILLS</h4>
+                        <ul>
+                            <li>Java Spring Boot , MVC </li>
+                            <li>Azure Functions with Java</li>
+                            <li>C# , Flutter</li>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>TypeScript, Express.js</li>
+                            <li>Angular.js, React.js</li>
+                            <li>MySQL, MS SQL, PostgreSQL</li>
+                            <li>MongonDB</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="divider"></div> -->
+                <div class="contests pad-top-10 normal-text">
+                    <h4>Mobile App Training (2016) </h4>
                     <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Angular.js, React.js</li>
-                        <li>MySQL, MS SQL, PostgreSQL</li>
-                        <li>Azure Functions with Java</li>
-                        <li>Collaboration</li>
-                        <li>Docker, Java Spring Boot</li>
+                        <li>Samsung Tech Institute</li>
+                        <li>Android Application (Java)</li>
+                        <li>Training By <span class="new-wave">New Wave Technology</span>(in UCSY)</li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="contests pad-top-10 normal-text">
-                <h4>Mobile App Training (2016) </h4>
-                <p>Samsung Tech Institute</p>
-                <p>Training By New Wave Technology (UCSY)</p>
-            </div>
-
-            <div class="contests pad-top-10 normal-text">
-                <h4>Contests</h4>
-                <p>International Collegiate Programming Contest (ICPC):</p>
-                <ul>
-                    <li><a href="assets/2017.pdf" download class="download-btn">Certificate 2017 (UCSY)</a></li>
-                    <li><a href="assets/2018.pdf" download class="download-btn">Certificate 2017 (UCSY)</a></li>
-                </ul>
+                <!-- <div class="divider"></div> -->
+                <div class="contests pad-top-10 normal-text">
+                    <h4>Contests</h4>
+                    <p>International Collegiate Programming Contest (ICPC):</p>
+                    <ul>
+                        <li><a href="assets/2017.pdf" download class="download-btn">Certificate 2017 (UCSY)</a></li>
+                        <li><a href="assets/2018.pdf" download class="download-btn">Certificate 2017 (UCSY)</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- --------- RIGHT SIDE --------- -->
         <div class="right-side">
             <div class="about">
-                <h1>Aung Naing Tun</h1>
+                <h1>AUNG NAING TUN</h1>
             </div>
-            <div class="experience">
-                <h4>Work Experience</h4>
-                <div style="color: #919191;">Full Stack Web Developer at MIT (October 2022 - present)</div>
+            <div class="experience pad-top-10">
+                <h4>WORK EXPERIENCES</h4>
+                <div style="color: #919191;" class="pad-top-10">Full Stack Web Developer at MIT (October 2022 - present)
+                </div>
                 <div class="section">
-                    <h4 class="section-title">Backend Development (Java)</h4>
-                    <ul>
+                    <h4 class="section-title">Backend Development</h4>
+                    <ul class="pad-top-10">
                         <li>Maintain and develop core banking services.</li>
                         <li>Create and manage RESTful APIs for data interaction.</li>
                         <li>Write server-side code to process user inputs and handle business logic.</li>
@@ -78,8 +88,8 @@
                 </div>
 
                 <div class="section pad-top-10">
-                    <h4 class="section-title">Frontend Development (Angular)</h4>
-                    <ul>
+                    <h4 class="section-title">Frontend Development</h4>
+                    <ul class="pad-top-10">
                         <li>Develop user-friendly interfaces based on design specifications.</li>
                         <li>Ensure applications work across various devices and screen sizes.</li>
                         <li>Use frameworks (Angular, React) for efficient development.</li>
@@ -91,7 +101,7 @@
 
                 <div class="section pad-top-10">
                     <h4 class="section-title">Database Development</h4>
-                    <ul>
+                    <ul class="pad-top-10">
                         <li>Design database schemas for efficient data storage and retrieval.</li>
                         <li>Write and optimize SQL/NoSQL queries for CRUD operations.</li>
                         <li>Manage data migration between different database versions.</li>
@@ -102,8 +112,110 @@
             </div>
 
             <footer>
-                <p>Please visit my portfolio: <a href="https://portfolio-7693b.firebaseapp.com/" target="_blank">My Portfolio</a></p>
+                <h4>- Please visit -</h4>
+                <div class="d-flex pad-top-10">
+                    <img src="assets/icons/portfolio2.svg" width="20px" height="20px" alt="github">
+                    <a href="https://portfolio-7693b.firebaseapp.com/" target="_blank">
+                        <span style="text-decoration: underline;">Portfolio</span> 
+                    </a>
+                </div>
+
+                <div class="d-flex">
+                    <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                    <a href="https://github.com/Mraungnaingtun" target="_blank">
+                        <span style="text-decoration: underline;">My Github Account</span> 
+                    </a>
+                </div>
+
+
+
+
             </footer>
+        </div>
+    </div>
+    <!-- ------ Project ------ -->
+    <div class="card-container" style="padding-top: 90px;">
+        <div>
+            <h1>Projects</h1>
+            <div class="card-list">
+                <div class="card backend">
+                    <h2>Banking & unit test</h2>
+                    <p>Banking Management System with unit test and integration test.</p>
+                    <div class="d-flex pad-top-10 pad-bottom-10">
+                        <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                        <a href="https://github.com/Mraungnaingtun" target="_blank">
+                            <span style="text-decoration: underline;">Project Link</span>
+                        </a>
+                    </div>
+                    <span class="category">Spring Boot</span>
+                    <span class="category">JUnit5</span>
+                    <span class="category">Postgres</span>
+                </div>
+                <div class="card frontend">
+                    <h2>Spring CRUD & thymeleaf</h2>
+                    <p>Building a CRUD application based on the MVC framework, leveraging Thymeleaf for user interface
+                        management.</p>
+                    <div class="d-flex pad-top-10 pad-bottom-10">
+                        <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                        <a href="https://github.com/Mraungnaingtun" target="_blank">
+                            <span style="text-decoration: underline;">Project Link</span>
+                        </a>
+                    </div>
+                    <span class="category">Spring MVC</span>
+                    <span class="category">MySql</span>
+                    <span class="category">Thymeleaf</span>
+                </div>
+                <div class="card fullstack">
+                    <h2>Myanmar Gold Calculator</h2>
+                    <p>Calculator of gold with Myanmar Measurement (Kyat,Pay,Roy) currently used by many users with a
+                        mobile app.</p>
+                        <div class="d-flex pad-top-10 pad-bottom-10">
+                            <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                            <a href="https://github.com/Mraungnaingtun" target="_blank">
+                                <span style="text-decoration: underline;">Project Link</span>
+                            </a>
+                        </div>
+                    <span class="category">Reactjs</span>
+                    <span class="category">Material UI</span>
+                </div>
+                <div class="card backend">
+                    <h2>Oauth2 Resource Server</h2>
+                    <p>Authentication and Authorization with latest spring version and spring security version.</p>
+                    <div class="d-flex pad-top-10 pad-bottom-10">
+                        <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                        <a href="https://github.com/Mraungnaingtun" target="_blank">
+                            <span style="text-decoration: underline;">Project Link</span>
+                        </a>
+                    </div>
+                    <span class="category">Spring Boot</span>
+                    <span class="category">Spring Security</span>
+                    <span class="category">Postgres</span>
+                </div>
+                <div class="card frontend">
+                    <h2>Angular & api calling</h2>
+                    <p>Project with api calling using angular with simple and better way with TypeScript DTO.</p>
+                    <div class="d-flex pad-top-10 pad-bottom-10">
+                        <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                        <a href="https://github.com/Mraungnaingtun" target="_blank">
+                            <span style="text-decoration: underline;">Project Link</span>
+                        </a>
+                    </div>
+                    <span class="category">Java</span>
+                    <span class="category">Angular</span>
+                </div>
+                <div class="card fullstack">
+                    <h2>Portfolio Website</h2>
+                    <p>A quick introduction to a personal portfolio website showcasing projects and skills.</p>
+                    <div class="d-flex pad-top-10 pad-bottom-10">
+                        <img src="assets/icons/github-mark.svg" width="20px" height="20px" alt="github">
+                        <a href="https://github.com/Mraungnaingtun" target="_blank">
+                            <span style="text-decoration: underline;">Project Link</span>
+                        </a>
+                    </div>
+                    <span class="category">Angular</span>
+                    <span class="category">Angular Material</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
