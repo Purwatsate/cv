@@ -23,6 +23,7 @@
     --primary-color: #16807c;
     --secondary-color: #2ecc71;
     --background-color: #fafafa;
+    --body-bg-color: #1a0dd6;
     --text-color: #333;
     --font-size: 16px;
     --spacing: 1.5rem;
@@ -38,7 +39,7 @@ a {
 
 body {
     font-family:  'Lato', sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--body-bg-color);
     line-height: 1.6;
     margin: 6px;
     color: var(--text-color);
@@ -115,6 +116,10 @@ body {
     border-bottom-right-radius: 90px;
     border-top-left-radius: 90px;
     margin-top: 10px;
+}
+
+.key-features {
+    padding: 10px 0px;
 }
 
 h3 {
