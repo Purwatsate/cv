@@ -181,6 +181,7 @@ ul {
 ul li {
     margin-bottom: 5px;
     /* text-align: justify; */
+    list-style-type: circle;
     font-size: 0.9rem;
 }
 
