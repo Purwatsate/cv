@@ -11,4 +11,4 @@ This document outlines the steps to save the current page as a PDF. Follow the i
 ---
 
 **Thank you for using this guide! 😄**
-**Live on** -- https://mraungnaingtun.github.io/cv/
+**Live on** -- https://purwatsate.github.io/cv/
